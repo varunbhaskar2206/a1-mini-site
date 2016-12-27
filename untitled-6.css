@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+* multi-line comment
+*/
+p{
+	line-height: 2em;
+	color: #8B8686;
+	font-size: 20px;
+}
+ol{
+	color: #000000;
+	font-size:20px;
+	}
+h1, h2, h3, h4{
+	color: white;
+	font-weight: bolder;
+	margin: 0 0 .5em 0;
+	line-height: normal;
+}
+h1{
+	font-size: 1.7em;
+	width: 760px;
+}
+h2{
+	color: white;
+	font-size: 2em;
+}
+a{
+	color: white;
+	text-decoration: none;
+	text-shadow: 4px 0px none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
+body{
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif, "Comic Sans", cursive; font-size: 90%; line-height: 1.2em; width: 1100px; background: #000000;
+}
+/* you can put your code all in one line like above */
+#page{
+	
+	width:160%;
+	background-color: #000000;
+}
+
+/* or on different lines like below */
+#logo{
+	width: 100%;
+	margin-top: 5px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif, "Comic Sans", cursive;
+	;
+	;
+	display: inline-block;
+	font-size: x-large;
+	color: #645F5F;
+}
+#table1{
+	
+	color:#FD7105;
+	font-size:20px; }
+
+/* but try and be as concise as possible */
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 42px;
+		}
+			#nav ul li a{
+	padding: 16px;
+	background: white;
+	color: #645F5F;
+    font-size:24px;
+			}
+			#nav ul li a:hover{
+				background-color: #EC6D22;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{
+	background-color: #ff8f00;
+	margin-left: 9px;
+}
+
+#content{
+	margin: 50px;
+	padding: 20px;
+	clear: both;
+	background-color: black;
+	color: #525252;
+}
+
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 80%;
+	color: #222121;
+	}
+	
+
+/* multiple styles seperated by a , */
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+.userid {
+}
+ul li a {
+}
+ul li a {
+}
